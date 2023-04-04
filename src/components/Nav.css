@@ -1,0 +1,98 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+#titleNav{
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.searchBar{
+    padding: 5px;
+    margin: 10px;
+}
+
+#searchInput{
+    text-align: left;
+    border-radius: 5px;
+    margin-right: 50px;
+    border-width: 0.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.agregarBtn{
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    background-color: wheat;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+.agregarBtn:hover {
+    border-color: white;
+    font-weight: bold;
+    }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    position: relative;
+    background-color: wheat;
+    border-style:solid;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+    font-size: small;
+    width: 250px;
+    height: fit-content;
+}
+
+.cardImg{
+    width: 100%; /* Ajustar el ancho de la imagen al 100% de la card */
+    height: 50%; /* Ajustar la altura de la imagen */
+    object-fit: cover; /* Para evitar que la imagen se deforme */
+}
+
+.xBtn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+}
+.xBtn:hover {
+    background-color: red;
+    border-color: white;
+    }
+
+.datos{
+    color: black;
+    text-align: center;
+    font-size:medium;
+}
+
+#name{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 200px;
+}
