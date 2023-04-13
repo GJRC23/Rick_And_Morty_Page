@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+#titleNav{
+    color: white;
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+#logOut{
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 5px 20px;
+  background-color: wheat;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+#logOut:hover {
+  border-color: white;
+  font-weight: bold;
+  }
+#logOut a {
+  text-decoration: none;
+  color: black;
+}
+

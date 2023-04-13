@@ -1,6 +1,7 @@
-import Card from './Card';
+import './Cards.css'
+import Card from '../Card/Card.jsx'
 
-export default function Cards( { characters, onClose } ) {
+export default function Cards( { characters, onClose, showButton } ) {
    return (
       <div className="cards">
          {
@@ -16,6 +17,7 @@ export default function Cards( { characters, onClose } ) {
                      image={image}
                      origin={origin.name}
                      onClose={onClose}
+                     showButton={showButton}
                   />
                );
             })
