@@ -1,6 +1,7 @@
 .searchBar{
     padding: 5px;
     margin: 10px;
+    font-family: 'getSchwifty', sans-serif;
 }
 
 #searchInput{
@@ -14,15 +15,18 @@
 }
 
 .agregarBtn{
+    font-size: 15px;
     border-radius: 5px;
     margin-right: 20px;
     padding: 5px 20px;
-    background-color: wheat;
+    background-color: #fff874;
     border-width: 0.5px;
     cursor: pointer;
+    font-family: 'getSchwifty', sans-serif;
 }
 .agregarBtn:hover {
-    border-color: white;
+    border-width: 4px;
+    border-color: #4cb5c3;
     font-weight: bold;
     }
 .agregarBtn a {

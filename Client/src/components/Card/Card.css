@@ -1,7 +1,6 @@
 .card{
     display: inline-block;
     position: relative;
-    background-color: wheat;
     border-style:solid;
     border-radius: 5px;
     margin: 5px;
@@ -9,13 +8,16 @@
     font-size: small;
     width: 250px;
     height: fit-content;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.7);
 }
 
 .cardImg{
     width: 100%; /* Ajustar el ancho de la imagen al 100% de la card */
     height: 50%; /* Ajustar la altura de la imagen */
-    object-fit: cover; /* Para evitar que la imagen se deforme */
+    background-size: cover; /* Para evitar que la imagen se deforme */
+    margin-bottom: -6px;
+    top: 0;
+    left: 0;
 }
 
 .xBtn{
@@ -45,13 +47,14 @@
     }
 
 .datos{
-    color: black;
     text-align: center;
     font-size:medium;
 }
 
 #name{
-    color: white;
+    color: #4cb5c3;
+    font-weight: 100;
+    -webkit-text-stroke: 0.25px #FFF874;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     position: absolute;
@@ -61,9 +64,10 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    margin-top: 200px;
+    margin-top: 180px;
+    padding: 10px;
 }
 #name:hover{
-    color: wheat;
+    color: #fff874;
     text-decoration: underline;
 }

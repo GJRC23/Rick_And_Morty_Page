@@ -1,15 +1,18 @@
 .pContainer{
-    background-color: wheat;
+    background-color: #FFF874;
     margin: 25px 25px;
     padding: 10px 10px;
     border-style: solid;
     border-radius: 15px;
     font-size: large;
+    font-family: sans-serif;
 }
 
 .titleAbout{
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: #4cb5c3;
+    font-weight: 100;
+    -webkit-text-stroke: 0.25px #FFF874;
     margin: 15px 50px -25px 50px;
     border-radius: 15px;
 }

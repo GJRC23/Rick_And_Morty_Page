@@ -12,10 +12,10 @@ const Nav = ({ onSearch, addRandomCharacter, setAccess }) => {
     <nav>
       <button id='logOut' onClick={handleLogOut}>Log Out</button>
 
-      <h1 id="titleNav">Rick and Morty Characters</h1>
+      <img className="titleImg" src='https://www.pngplay.com/wp-content/uploads/14/Rick-And-Morty-Logo-Transparent-File.png' alt='' />
 
       <button className='agregarBtn' onClick={addRandomCharacter}>
-        Agregar personaje aleatorio
+        Add Random Character
       </button>
 
       <button className='agregarBtn'>

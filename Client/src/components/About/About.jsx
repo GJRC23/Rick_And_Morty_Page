@@ -15,12 +15,12 @@ const About = () => {
 
             <h1 className="titleAbout">Funcionalidad del proyecto</h1>
             <p className="pContainer">
-                El proyecto permite a los usuarios buscar personajes por nombre o por especie utilizando una barra de búsqueda. Los resultados se muestran en una cuadrícula de imágenes con información básica sobre cada personaje, como su nombre, especie y estado de vida. Los usuarios pueden hacer clic en el nombre para obtener información más detallada sobre el personaje, como su género y lugar de origen.
+                El proyecto permite a los usuarios buscar personajes por ID o de manera aleatoria utilizando una barra de búsqueda. Los resultados se muestran en una cuadrícula de imágenes con información básica sobre cada personaje como su nombre. Los usuarios pueden hacer clic en el nombre para obtener información más detallada sobre el personaje, como su género y lugar de origen. Además podrán seleccionar sus personajes favoritos y que queden guardarlos en la sección Favorites.
             </p>
 
             <h1 className="titleAbout">Conclusión</h1>
             <p className="pContainer">
-                En general, crear este proyecto ha sido una experiencia muy gratificante. Me ha permitido aprender más sobre JavaScript y cómo se puede utilizar para crear una página web interactiva y atractiva. También me ha permitido profundizar en mi amor por la serie Rick y Morty y explorar más a fondo los personajes y la trama. Agradezco a la comunidad de programadores en línea que ha proporcionado recursos y apoyo durante la creación de este proyecto.
+                En general, crear este proyecto ha sido una experiencia muy gratificante. Me ha permitido aprender más sobre JavaScript y cómo se puede utilizar para crear una página web interactiva y atractiva. También me ha permitido profundizar en mi amor por la serie Rick y Morty y explorar más a fondo los personajes. Agradezco a la comunidad de programadores en línea que ha proporcionado recursos y apoyo durante la creación de este proyecto.
             </p>
         </div>
     )

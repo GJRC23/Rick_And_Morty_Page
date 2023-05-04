@@ -1,3 +1,14 @@
+@font-face {
+   font-family: 'getSchwifty';
+   src:
+       url('../public/getSchwifty.ttf') format('truetype'),
+       url('../public/getschwifty-webfont.woff2') format('woff2'),
+       url('../public/getschwifty-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
 .App {
    text-align: center;
+   font-family: 'getSchwifty', sans-serif;
 }

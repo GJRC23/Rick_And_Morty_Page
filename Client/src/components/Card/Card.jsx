@@ -38,9 +38,6 @@ function Card({ id, name, species, gender, image, onClose, addFav, removeFav, my
             <Link to = {`/detail/${id}`}>
                <h2 id="name">{name}</h2>
             </Link>
-            
-            <h2>{species}</h2>
-            <h2>{gender}</h2>
          </div>
 
       </div>
